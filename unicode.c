@@ -70,8 +70,6 @@ int		ret_unicode(va_list ap, int acc, int width, char flg)
 	ret = 0;
 	i = 0;
 	inpt = va_arg(ap, unsigned int *);
-	if (MB_CUR_MAX == 1)
-		return (-1);
 	if (inpt == NULL)
 		return (ft_null());
 	if (width > 0 && !(flg & 1))
