@@ -45,7 +45,6 @@ int				ft_strcmp(const char *s1, const char *s2);
 long long int	casted_signed_ld(char modifier, va_list ap);
 size_t			casted_unsigned_lu(char modifier, va_list ap);
 void			ft_strdel(char **as);
-void			ft_memdel(void **ap);
 int				ret_unicode(va_list ap, int acc, int width, char flg);
 int				width_unicode(unsigned int *inpt, int width, int acc, char flg);
 char			*str_p(char **p, char *str, int acc, va_list ap);
